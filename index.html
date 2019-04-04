@@ -6,9 +6,79 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <style>
-        body {background-color: powderblue;}
-        h1   {color: blue;}
-        p    {color: red;}
+        .text-blue {
+            color: #233E99;
+        }
+
+        .bar {
+            background-color: #233E99;
+            height: 90px;
+        }
+
+        .title {
+            text-align: center;
+            font-weight: 800;
+            font-size: 22px;
+            margin-top: 30px;
+            margin-bottom: 30px;
+        }
+
+        .img-logo {
+            margin: 15px;
+        }
+
+        .img-big {
+            background: url('https://firebasestorage.googleapis.com/v0/b/certia-4-15-02-2019.appspot.com/o/objectives%2FinteligoMail%2Fimg-big.png?alt=media&token=dc70c691-e8d4-455b-87b0-3fdc0c76cce6');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 350px;
+            max-height: 500px;
+        }
+
+        .text-img {
+            background-color: #EDEDED;
+            height: 90px;
+            position: relative;
+            top: 65%;
+            text-align: center;
+        }
+
+        .text-img p {
+            padding-top: 20px;
+            font-size: 22px;
+            font-weight: 600;
+        }
+
+        .width {
+            width: 50%
+        }
+
+        .container {
+            display: flex
+        }
+
+        .main {
+            margin-top: 60px;
+        }
+
+        .container-table {
+            display: flex;
+            justify-content: center;
+        }
+
+        .table2 {
+            width: 70%
+        }
+        .container-bottom {
+            border: 1px solid #A5A5A5;
+            background-color: #F2F2F2;
+            text-align: center;
+            font-weight: 600;
+            margin-top: 30px
+        }
+
+
 
         /* Small devices (landscape phones, 576px and up) */
         @media (min-width: 576px) { 
@@ -27,11 +97,74 @@
 
         /* Extra large devices (large desktops, 1200px and up) */
         @media (min-width: 1200px) { 
-            
+
          }
     </style>
 </head>
 <body>
+
+    <div class='bar'>
+        <img src='https://firebasestorage.googleapis.com/v0/b/certia-4-15-02-2019.appspot.com/o/objectives%2FinteligoMail%2FLOGO.png?alt=media&token=408fab61-2006-4446-a5eb-d722fe42bc73' class='img-logo' alt='Logo Inteligo Bank'/>
+    </div>
+    <div>
+        <p class='text-blue title'>Cencosud:</p>
+
+        <div class='img-big'>
+            <div class='text-img'>
+                <p class='text-blue'>Se incrementa la necesidad de despalancamiento <br/> ante entorno desafiante</p>
+            </div>
+        </div>
+        <div class='container main'>
+            <div class="width container-table">
+                    <table class="table1">
+                        <tr>
+                            <th>Nuestra recomendación:</th>
+                        </tr>
+                        <tr>
+                            <td>Bono</td>
+                            <td>Recomendación</td>
+                        </tr>
+                        <tr>
+                            <td>Cencosud 21</td>
+                            <td>Vender</td>
+                        </tr>
+                        <tr>
+                            <td>Cencosud 23</td>
+                            <td>Mantener</td>
+                        </tr>
+                        <tr>
+                            <td>Cencosud 25</td>
+                            <td>Mantener</td>
+                        </tr>
+                        <tr>
+                            <td>Cencosud 45</td>
+                            <td>Vender</td>
+                        </tr>
+                </table>
+            </div>
+            <div class="width container-table">
+                <table class="table2">
+                        <tr>
+                            <th>Sustentos</th>
+                        </tr>
+                        <tr>
+                            <td><li>El resultado financiero y operativo lo mantiene como líder en sus principales negocios, a pesar del contexto macroeconómico adverso en la región.</li></td>
+                        </tr>
+                        <tr>
+                            <td><li>Alta representación del negocio de supermercados aporta estabilidad en los flujos.</li></td>
+                        </tr>
+                        <tr>
+                            <td><li>El plan de venta de activos no estratégicos y el próximo IPO de su negocio de centros comerciales generan expectativa para la mejora del perfil crediticio.</li></td>
+                        </tr>
+                </table>
+            </div>
+            
+        </div>
+        <div class="text-blue container-bottom">
+            <p>Para acceder a mayor detalle sobre esta información, puede acceder a los reportes en el siguiente link:</p>
+            <p>INFORMACIÓN CENCOSUD - FECHA</p>
+        </div>
+    </div>
     
 </body>
 </html>
